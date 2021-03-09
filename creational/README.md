@@ -19,3 +19,7 @@ Intent: Specify the kinds of objects to create using prototypical instance, and 
 ## Factory
 
 Intent: Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclass.
+
+## Builder
+
+Intent: Separate the construction of a complex object from its representation so that the same construction process can create different representations. 
