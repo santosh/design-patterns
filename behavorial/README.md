@@ -1,5 +1,19 @@
 # List of Behavioral Patterns
 
+List of Behavioral Patterns:
+
+- Chain of Responsibility
+- Command
+- Interpreter
+- Iterator
+- Mediator
+- Memento
+- Observer
+- State
+- Strategy
+- Template Method
+- Visitor
+
 ## Observer Pattern
 
 Came to know about this pattern when reading The Pragmatic Programmer. Software and protocols like AMQP uses this in their pub/sub model. This pattern is how you can make your objects decoupled and only make communication between them using **events**. One object can communicate to another only when they are subscribed to them. A subscriber can only subscribe to specific topic if they want. 
