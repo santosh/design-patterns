@@ -7,8 +7,8 @@ class Employee extends Shopper {
     this.employed = true;
   }
 
-  payDay(moeny = 0) {
-    this.money;
+  payDay(money = 0) {
+    this.money += money;
   }
 }
 

@@ -1,8 +1,7 @@
-let Shopper = require('./Shopper')
-let Employee = require('./Employee')
+var userFactory = require('./userFactory');
 
-let alex = new Shopper('Alex Banks', 100)
-let eve = new Shopper('Eve Porcello', 100, 'This and That')
+let alex = userFactory('Alex Banks', 100)
+let eve = userFactory('Eve Porcello', 100, 'employee', 'This and That')
 
 console.log(alex.toString());
 console.log(eve.toString());
