@@ -9,3 +9,7 @@ List of Structural Patterns:
 - Facade
 - Flyweight
 - Proxy
+
+## Adapter
+
+Intent: Convert the interface of a class into another clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
