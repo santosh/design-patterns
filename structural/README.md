@@ -27,3 +27,9 @@ Intent: Compose objects into tree structures to represent part-whole hierarchies
 We want to perform same operation on individual element as we would on a group of elements. E.g. you could eat a grape, and if you are hungry enough, you would eat a bunch of grapes. 
 
 In composites, the interface should be same as the each element. If each element has `print` method attached to them, the composite of them should also have same interface.
+
+## Decorator
+
+Intent: Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
+
+Allows us to dynamically attach additional properties and methods to existing objcets. Alternative to subclassing for extending functionality. 
