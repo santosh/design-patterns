@@ -15,7 +15,8 @@ const diamond_gold_necklace = new DiamondInventoryItem(gold_necklace)
 
 const diamond_walkman = new DiamondInventoryItem(walkman)
 
-alex.purchase(necklace)
-alex.purchase(walkman)
+alex.purchase(diamond_gold_necklace)
+alex.purchase(diamond_walkman)
 
 alex.printStatus()
+diamond_walkman.print()
