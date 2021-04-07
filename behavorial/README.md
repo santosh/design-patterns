@@ -28,6 +28,12 @@ Commands are object that contains all of the data necessary to execute a specifi
 
 Intent: Encapsulate a request as an object, thereby letting you parameterize with different requests, queue or log requests, and support undoable operations.
 
+## Iterator Pattern
+
+It gives us a uniform interface to interact with lists, collection, arrays or any type of aggregate objects. Iterators are designed with collection of data. 
+
+Intent: Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+
 ## Observer Pattern
 
 Came to know about this pattern when reading The Pragmatic Programmer. Software and protocols like AMQP uses this in their pub/sub model. This pattern is how you can make your objects decoupled and only make communication between them using **events**. One object can communicate to another only when they are subscribed to them. A subscriber can only subscribe to specific topic if they want. 
