@@ -1,7 +1,13 @@
 const path = require('path')
 const { appendFile } = require('fs')
+const morse = require('morse')
 
 class LogStrategy {
+  static toMorseCode(timestamp, message) {
+    const morseCode = morse.encode(message)
+    console.log(morseCode);
+  }
+
   static noDate(timestamp, message) {
     console.log(message);
   }
