@@ -1,4 +1,5 @@
 const LogStrategy = require('./LogStrategy')
+const config = require('./config')
 
 class Logger {
   constructor(strategy = 'toConsole') {
@@ -21,4 +22,4 @@ class Logger {
   }
 }
 
-module.exports = new Logger()
+module.exports = new Logger(config.logs.strategy)
