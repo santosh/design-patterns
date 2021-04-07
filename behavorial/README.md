@@ -56,3 +56,12 @@ Option 3 is most viable, and this is what the Observer pattern is all about. The
 
 - Subject, the instance which publishes an event when anything happens. 
 - Observer, which subscribes to the subject events and gets notified when they happen. 
+
+
+## Strategy
+
+Strategy pattern lets you create multiple algorithms for specific tasks and then dynamically decide upon what algorithm to use at runtime. 
+
+Imagine a shopping system. We can design a payment system with just the credit card payment. Or we can have multiple strategies for multiple types of payment. 
+
+Intent: Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
