@@ -14,6 +14,15 @@ List of Behavioral Patterns:
 - Template Method
 - Visitor
 
+## Chain of Responsibility
+
+Suppose you order a sandwich. The first thing which you might be asked to select is bread, then meat, then cheeses, then veggies, then condaments. But if you wish, you can claim you sandwich at any step in the process. If you only wish bread and the cheese in your sandwich, rest of the process does not need to complete on the assembly line.
+
+Similarly, chain of responsibility pattern allows us to chain together objects to handle our request. Our request is sent to an object to handle it, and then that handler could process the request and return a result, or it could pass the request onto the next handler. Which could again return a result or pass that to next handler. 
+
+Intent: Avoid coupling the sender of a request to its receiver by giving more than one object a change to handle the request. Chain the reveiving objects and pass the request along the chain.
+
+
 ## Observer Pattern
 
 Came to know about this pattern when reading The Pragmatic Programmer. Software and protocols like AMQP uses this in their pub/sub model. This pattern is how you can make your objects decoupled and only make communication between them using **events**. One object can communicate to another only when they are subscribed to them. A subscriber can only subscribe to specific topic if they want. 
