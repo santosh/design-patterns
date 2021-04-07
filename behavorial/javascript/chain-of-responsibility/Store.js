@@ -1,4 +1,4 @@
-var Storage = require('./Storage');
+const Storage = require('./Storage');
 
 class Store {
   constructor(name, inventory = []) {
@@ -13,7 +13,7 @@ class Store {
     backroom.setNext(localStore)
     localStore.setNext(warehouse)
 
-    this.store = floor
+    this.storage = floor
   }
 
   find(itemName) {
