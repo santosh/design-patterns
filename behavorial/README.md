@@ -42,6 +42,8 @@ The Observer pattern suggests that you add a subscripiton mechanism to the publi
 
 Subscription list is dynamic, so subscribers can join or leave the list whenever they need to. 
 
+Intent: Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
+
 ### Example
 
 In the e-commerce website, items go out of stock from time to time. There can be customers who are interested in a particular item that went out of stock. There are three solutions to this problem: 
