@@ -1,4 +1,4 @@
-const { writeFile } = require('fs')
+const { writeFile, unlink } = require('fs')
 const path = require('path')
 
 class ExitCommand {
@@ -21,8 +21,13 @@ class CreateCommand {
   get name() {
     return `create ${this.fileName}`
   }
+
   execute() {
     writeFile(this.fullPath, this.body, f => f)
+  }
+
+  undo() {
+    unlink(this.fullPath, f => f)
   }
 }
 
