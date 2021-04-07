@@ -22,6 +22,11 @@ Similarly, chain of responsibility pattern allows us to chain together objects t
 
 Intent: Avoid coupling the sender of a request to its receiver by giving more than one object a change to handle the request. Chain the reveiving objects and pass the request along the chain.
 
+## Command Pattern
+
+Commands are object that contains all of the data necessary to execute a specific action on the client. 
+
+Intent: Encapsulate a request as an object, thereby letting you parameterize with different requests, queue or log requests, and support undoable operations.
 
 ## Observer Pattern
 
