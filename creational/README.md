@@ -16,9 +16,15 @@ Intent: Ensure a class only has one instance, and provide a global point of acce
 
 Intent: Specify the kinds of objects to create using prototypical instance, and create new objects by copying this prototype.
 
-## Factory
+## Factory Method 
+
+Also known as Factory or Virtual Constructor.
 
 Intent: Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclass.
+
+Note: Factory and Factory Method are same. Also don't be confused with Factory and Abstract Factory.
+
+[Python](./python/factory_method/)
 
 ## Builder
 
